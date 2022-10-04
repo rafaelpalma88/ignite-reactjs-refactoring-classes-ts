@@ -5,7 +5,7 @@ import { Form } from './styles';
 import Modal from '../Modal';
 import Input from '../Input';
 
-const ModalEditFood = ({ isOpen, setIsOpen, editingFood, setIsOpen, handleUpdateFood }) => {
+const ModalEditFood = ({ isOpen, setIsOpen, editingFood, handleUpdateFood }) => {
 
   const formRef = useRef(null)
 
