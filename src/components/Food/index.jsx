@@ -13,10 +13,6 @@ const Food = ({ food, handleEditFood, handleDelete }) => {
     handleEditFood(food);
   }
 
-  // useEffect(() => {
-  //   setIsAvailable(food.available)
-  // }, [food])
-
   const toggleAvailable = async () => {
     await api.put(`/foods/${food.id}`, {
       ...food,
